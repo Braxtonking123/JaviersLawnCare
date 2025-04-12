@@ -60,6 +60,9 @@ a{
             #top-schedule{
                 color: rgb(255, 247, 236);
             }
+                #top-info-anchors{
+                    font: 16px;
+                }
 /* NAV BAR */
 #nav-bar-container{
     width: 100%;
