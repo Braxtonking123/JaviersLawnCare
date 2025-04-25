@@ -1,0 +1,490 @@
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css');
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+
+  }
+a{
+    text-decoration: none;
+    color: rgb(28, 255, 58);
+}
+#instagram{
+    color: rgb(28, 255, 58);
+    font-size: 25px;
+    cursor: pointer;
+}
+/* Text Shadow */
+.text-shadow {
+    color: white; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Horizontal, vertical, blur radius, and shadow color */
+  }
+
+
+/* TOP SECTION */
+#top-section{
+    width: 100%;
+    height: 300px;
+
+    background-color: rgb(0, 109, 46);
+}
+/* TOP BAR */
+#top-bar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    #top-bar-container{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+        .top-bar-boxes{
+            width: 25%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+            #top-schedule{
+                color: rgb(255, 247, 236);
+            }
+                .top-info-anchors{
+                    font-size: 18px;
+                }
+/* NAV BAR */
+#nav-bar-container{
+    width: 100%;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+    #nav-bar-left,#nav-bar-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+        #nav-bar-left{
+            height: 98%;
+            width: 30%;
+            background-color: transparent;
+        }
+            #logo{
+                width: auto;
+                height: 80%;
+                border-radius: 5px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+            }
+        #nav-bar-right{
+            height: 50%;
+            width: 50%;
+            gap: 10%;
+            background-color: rgb(107, 247, 125);
+            border: 1px solid grey;
+        }
+            .nav-buttons{
+                width: 170px;
+                height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                font-size: 25px;
+                color: white;
+                text-align: center;
+                cursor: pointer;
+
+                background-color: rgb(0, 109, 46);
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.582);
+                border: 1px solid rgba(0, 0, 0, 0.74);
+                border-radius: 4px;
+
+                transition: 1.1s;
+            }
+                .nav-buttons:hover{
+                    transform: scale(1.1);
+                }
+
+/* MAIN SECTION */
+#main-section{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-image: url(main-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    #main-header-box{
+        width: 50%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: rgba(8, 5, 0, 0.2);
+
+    }
+        #main-header{
+            font-size: 35px;
+            color: rgb(28, 255, 58);
+        }
+    #main-bio-box{
+        width: 50%;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(8, 5, 0, 0.2);
+
+    }
+        #main-bio{
+            font-size: 40px;
+            color: white;
+            text-align: center;
+        }
+    #main-button-box{
+        width: 50%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+         #get-in-touch-button{
+            width: 170px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+            color: white;
+            text-align: center;
+
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: rgb(0, 109, 46);
+            cursor: pointer;
+            transition: 1.1s;
+        }
+            #get-in-touch-button:hover{
+                transform: scale(1.1);
+            }
+
+/* SERVICE SECTION */
+#service-section{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    #service-card-container{
+        width: 80%;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 2%;
+
+    }
+        #service-header-card{
+            width: 25%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            border: 4px solid rgb(175, 175, 175);
+        }
+            #service-header-one{
+                height: 10%;
+                width: 90%;
+                text-align: start;
+                font-size: 35px;
+
+                margin: 0;
+                padding: 0;
+            }
+            #service-header-two{
+                height: 10%;
+                width: 90%;
+                text-align: start;
+                font-size: 35px;
+
+                margin: 0;
+                padding: 0;
+            }
+                #service-bio{
+                    height: 60%;
+                    width: 90%;
+                    font-size: 17px;
+                    text-align: start;
+                }
+        #service-card-one,#service-card-two,#service-card-three{
+            width: 25%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: rgb(0, 109, 46);
+            border: 4px solid rgb(175, 175, 175);
+        }
+            .service-img-boxes{
+                width: 90%;
+                height: 45%;
+            }
+                #service-img-box-one{
+                    background-image: url(lawn.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                #service-img-box-two{
+                    background-image: url(shrub.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                #service-img-box-three{
+                    background-image: url(cleanup.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                #service-img-box-four{
+                    background-image: url(mulch.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                #service-img-box-five{
+                    background-image: url(landscape.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                #service-img-box-six{
+                    background-image: url(pavers.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                #service-img-box-seven{
+                    background-image: url(weeds.jpg);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+            .service-header-boxes{
+                width: 90%;
+                height: 10%;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                text-align: center;
+            }
+                .service-headers{
+                    font-size: 30px;
+                    color: white;
+
+                }
+            .service-bio-boxes{
+                width: 90%;
+                height: 35%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                text-align: center;
+            }
+                .service-bios{
+                    font-size: 17px;
+                    color: rgb(255, 247, 236);
+                }
+
+
+/* BOTTOM SECTION */
+#bottom-section{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: rgb(0, 109, 46);
+}
+    #map-container{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        #map{
+            width: 100%;
+            height: 100%;
+        }
+    #bottom-navigation-container{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+        border: 1px solid black;
+    }
+        #nav-box-left{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        #nav-box-right{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10%;
+
+        }
+            .bottom-nav-buttons{
+                font-size: 30px;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            #trademark-box{
+                width: 100%;
+                height: 10%;
+                display: flex;
+                align-self: end;
+            }
+
+/* CONTACT PAGE BELOW */
+#main-contact-section{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2%;
+}
+    #contact-section-left,#contact-section-right{
+        width: 39%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        border: 4px solid rgb(175, 175, 175);
+    }
+    #contact-section-right{
+        gap: 1%;
+        border: none;
+    }
+        #logo-box{
+            width: 80%;
+            height: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #contact-container{
+            width: 80%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+            #contact-header-box{
+                width: 100%;
+                height: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+                #contact-page-header{
+                    font-size: 30px;
+                }
+                #contact-page-bio{
+                    font-size: 20px;
+                    font-weight: normal;
+                }
+            #contact-bio-box{
+                width: 90%;
+                height: 80%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        .contact-page-boxes{
+            width: 100%;
+            height: 33%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            background-color: rgb(0, 109, 46);
+            border: 4px solid rgb(175, 175, 175);
+        }
+            .contact-box-top{
+                width: 50%;
+                height: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .contact-box-bottom{
+                width: 50%;
+                height: 50%;
+                display: flex;
+                align-items: start;
+                justify-content: center;
+            }
+                .contact-box-headers{
+                    font-size: 30px;
+                    color: white;
+                    text-decoration: underline;
+                    font-weight: normal;
+                }
+                .contact-box-bios{
+                    font-size: 20px;
+                    font-weight: normal;
+                }
